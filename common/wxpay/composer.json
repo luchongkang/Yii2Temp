@@ -1,0 +1,14 @@
+{
+    "name": "life2016/yii2-wxpay",
+    "description": "Wechat office sdk with composer.json and psr4",
+	"minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+		"2amigos/yii2-qrcode-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opwechat\\Phppayment\\": ""
+        }
+    }
+}
